@@ -1,0 +1,207 @@
+{
+	"errno": 0,
+	"data": [
+		{
+			"site": "01",
+			"name": "英雄联盟",
+			"type": "1",
+			"src": "01.jpeg"
+		},
+		{
+			"site": "02",
+			"name": "熊猫新秀",
+			"type": "2",
+			"src": "02.jpeg"
+		},
+		{
+			"site": "02",
+			"name": "守望先锋",
+			"type": "1",
+			"src": "03.png"
+		},
+		{
+			"site": "03",
+			"name": "户外直播",
+	
+			"type": "3",
+			"src": "04.png"
+		},
+		{
+			"site": "03",
+			"name": "炉石传说",
+			
+			"type": "4",
+			"src": "05.png"
+		},
+		{
+			"site": "01",
+			"name": "主机游戏",
+
+			"type": "5",
+			"src": "06.png"
+		},
+		{
+			"site": "01",
+			"name": "黎明杀机",
+			"type": "5",
+			"src": "07.jpeg"
+		},
+		{
+			"site": "01",
+			"name": "饥荒",
+			"type": "5",
+			"src": "08.jpeg"
+		},
+		{
+			"site": "02",
+			"name": "DOTA2",
+			"type": "1",
+			"src": "09.png"
+		},
+		{
+			"site": "02",
+			"name": "H1Z1",
+			"type": "2",
+			"src": "10.jpeg"
+		},
+		{
+			"site": "02",
+			"name": "魔兽争霸",
+			"type": "3",
+			"src": "11.jpeg"
+		},
+		{
+			"site": "03",
+			"name": "DNF",
+			"type": "4",
+			"src": "12.png"
+		},
+		{
+			"site": "03",
+			"name": "穿越火线",
+			"type": "4",
+			"src": "13.png"
+		},
+		{
+			"site": "03",
+			"name": "世界争霸",
+			"type": "5",
+			"src": "14.png"
+		},
+		{
+			"site": "03",
+			"name": "CSGO",
+			"type": "2",
+			"src": "15.png"
+		},
+		{
+			"site": "01",
+			"name": "暗黑破幻神",
+			"type": "2",
+			"src": "16.png"
+		},
+		{
+			"site": "01",
+			"name": "风暴英雄",
+			"type": "1",
+			"src": "17.png"
+		},
+		{
+			"site": "01",
+			"name": "体育竞技",
+			"type": "3",
+			"src": "18.png"
+		},
+		{
+			"site": "02",
+			"name": "街机游戏",
+			"type": "3",
+			"src": "19.png"
+		},
+		{
+			"site": "02",
+			"name": "格斗游戏",
+			"type": "2",
+			"src": "20.png"
+		},
+		{
+			"site": "02",
+			"name": "拳皇",
+			"type": "1",
+			"src": "21.jpeg"
+		},
+		{
+			"site": "03",
+			"name": "九阴真经",
+			"type": "1",
+			"src": "22.jpeg"
+		},
+		{
+			"site": "03",
+			"name": "天涯明月刀",
+			"type": "1",
+			"src": "23.png"
+		},
+		{
+			"site": "03",
+			"name": "跑跑卡丁车",
+			"type": "4",
+			"src": "24.jpeg"
+		},
+		{
+			"site": "01",
+			"name": "传奇",
+			"type": "4",
+			"src": "25.png"
+		},
+		{
+			"site": "01",
+			"name": "冒险岛2",
+			"type": "4",
+			"src": "26.jpeg"
+		},
+		{
+			"site": "02",
+			"name": "QQ飞车",
+			"type": "5",
+			"src": "27.jpeg"
+		},
+		{
+			"site": "02",
+			"name": "怀旧经典",
+			"type": "5",
+			"src": "28.png"
+		},
+		{
+			"site": "01",
+			"name": "掌机游戏",
+			"type": "5",
+			"src": "29.png"
+		},
+		{
+			"site": "02",
+			"name": "流放之路",
+			"type": "2",
+			"src": "30.jpeg"
+		},
+		{
+			"site": "03",
+			"name": "STARTFULL",
+			"type": "4",
+			"src": "31.png"
+		},
+		{
+			"site": "03",
+			"name": "阴阳师",
+			"type": "5",
+			"src": "32.jpeg"
+		},
+		{
+			"site": "02",
+			"name": "捕鱼天地",
+			"type": "3",
+			"src": "33.jpeg"
+		}
+
+	]
+}

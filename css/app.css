@@ -1,0 +1,574 @@
+.clip {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.nav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  float: left;
+  width: 230px;
+  background: #3A4040;
+}
+.nav .form {
+  padding: 15px;
+  text-align: center;
+  background: #3A4040;
+}
+.nav .form img {
+  width: 95px;
+  height: 54px;
+  margin-bottom: 10px;
+}
+.nav .form form {
+  position: relative;
+}
+.nav .form form .search {
+  border-radius: 3px;
+  border: 1px solid #787878;
+  padding: 5px 0;
+  text-indent: 10px;
+  background: #454C4C;
+  color: #a9a9a9;
+  font-family: 'Microsoft YaHei';
+  font-size: 14px;
+  width: 100%;
+}
+.nav .form form .submit {
+  position: absolute;
+  right: 4px;
+  top: 5px;
+  width: 16px;
+  height: 16px;
+  background-color: transparent;
+  background-image: url('/img/search.png');
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  cursor: pointer;
+}
+.nav .form form .submit:hover {
+  background-position: 0 -16px;
+}
+.nav .tit {
+  padding: 15px 0;
+  padding-left: 25px;
+  background: #2C3232;
+  border: 1px solid #3f4444;
+}
+.nav .tit a {
+  display: inline-block;
+  color: #1cd388;
+  padding: 5px 10px;
+  margin-right: 10px;
+  border-radius: 3px;
+}
+.nav .tit a:hover {
+  background: #364040;
+}
+.nav .tit .choose {
+  background: #364040;
+}
+.nav .box {
+  height: 270px;
+  padding: 15px;
+  background: #2C3230;
+  overflow: hidden;
+  position: relative;
+}
+.nav .box .slider {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 300px;
+  width: 6px;
+  background-color: transparent;
+  border-radius: 3px;
+  z-index: 1;
+  transition: background-color 0.4s;
+}
+.nav .box .slider:hover {
+  background-color: #ddd;
+}
+.nav .box .slider .slider-btn {
+  position: absolute;
+  width: 6px;
+  height: 70px;
+  background: #aaa;
+  top: 0;
+  left: 0;
+  border-radius: 3px;
+  opacity: 0;
+  transition: opacity .4s;
+}
+.nav .box .box-content {
+  padding: 15px 0;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: #2C3230;
+}
+.nav .box .box-content button {
+  display: inline-block;
+  width: 85%;
+  margin-left: 18px;
+  border: 1px solid #3f4444;
+  border-radius: 3px;
+  background: #3D4342;
+  height: 34px;
+  line-height: 34px;
+  color: #a9a9a9;
+  cursor: pointer;
+  transition: all .4s;
+}
+.nav .box .box-content button:hover {
+  color: #1cd388;
+  background: #474b4a;
+}
+.nav .box .box-content .ul-list {
+  margin-left: 15px;
+  overflow: hidden;
+}
+.nav .box .box-content .ul-list h4 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: left;
+  color: #999;
+}
+.nav .box .box-content .ul-list ul {
+  margin-right: -5px;
+}
+.nav .box .box-content .ul-list ul li {
+  float: left;
+}
+.nav .box .box-content .ul-list ul li a {
+  display: block;
+  width: 63.33333333px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  margin-right: 5px;
+  background: #262b29;
+  border-radius: 3px;
+  margin-bottom: 5px;
+  color: #d6d6d6;
+}
+.nav .box .box-content .ul-list ul li a:hover {
+  color: #ffffff;
+  background: #1cd388;
+}
+.nav .box .box-content .nav-bottom {
+  padding: 30px 20px;
+}
+.nav .box .box-content .nav-bottom a {
+  display: inline-block;
+  color: #999;
+  font-size: 13px;
+  width: 30.33333333%;
+  text-align: center;
+}
+.nav .box .box-content .nav-bottom a:hover {
+  color: #1cd388;
+}
+.nav .box:hover .slider-btn {
+  opacity: 1;
+}
+.nav .nav-login {
+  position: fixed;
+  width: 230px;
+  bottom: 0;
+  left: 0;
+  height: 70px;
+  background-color: rgba(0, 0, 0, 0.9);
+  background-image: url('/img/nav.png');
+  background-position: left bottom;
+  background-size: 230px;
+  background-repeat: no-repeat;
+  padding-top: 20px;
+  border-radius: 5px;
+}
+.nav .nav-login button {
+  display: block;
+  width: 63.33333333px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  margin-right: 5px;
+  background: transparent;
+  border-radius: 3px;
+  margin-bottom: 5px;
+  color: #1cd388;
+  width: 80px;
+  display: inline-block;
+  border: 1px solid #1cd388;
+  transition: all .4s;
+  margin-left: 20px;
+}
+.nav .nav-login button:hover {
+  color: #ffffff;
+  background: #1cd388;
+}
+.nav .nav-login button:hover {
+  color: #fff;
+  background: #1cd388;
+}
+.home {
+  margin-left: 230px;
+  padding: 20px;
+}
+.home .title {
+  overflow: hidden;
+}
+.home .title h1 {
+  float: left;
+  margin-right: 30px;
+  font-size: 24px;
+  font-weight: normal;
+}
+.home .title .type-tit {
+  float: left;
+  position: relative;
+  top: 4px;
+  margin-bottom: 20px;
+}
+.home .title .type-tit li {
+  cursor: pointer;
+  float: left;
+}
+.home .title .type-tit li a {
+  display: block;
+  width: 63.33333333px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  margin-right: 5px;
+  background: transparent;
+  border-radius: 3px;
+  margin-bottom: 5px;
+  color: #1cd388;
+  margin-right: 10px;
+  border: 1px solid #1cd388;
+}
+.home .title .type-tit li a:hover {
+  color: #ffffff;
+  background: #1cd388;
+}
+.home .title .type-tit li a .choose {
+  color: #fff;
+  background: #1cd388;
+}
+.home .type-list {
+  overflow: hidden;
+}
+.home .type-list ul {
+  margin-right: -15px;
+}
+.home .type-list ul li {
+  margin-right: 15px;
+  float: left;
+  margin-bottom: 10px;
+}
+.home .type-list ul li a {
+  display: block;
+}
+.home .type-list ul li a img {
+  width: 173px;
+  height: 240px;
+}
+.home .type-list ul li a p {
+  width: 173px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #333;
+  font-size: 14px;
+  margin-top: -3px;
+  transition: all .4s;
+}
+.home .type-list ul li:hover p {
+  color: #fff;
+  background: #1cd388;
+}
+.all {
+  overflow: hidden;
+  margin-left: 230px;
+  padding: 20px;
+}
+.all h1 {
+  display: inline-block;
+  font-size: 26px;
+  font-weight: normal;
+  border-bottom: 2px solid #1bbc9b;
+  position: relative;
+  top: 2.5px;
+  padding-bottom: 5px;
+}
+.all .line {
+  border-bottom: 2px solid #e8e8e8;
+  margin-bottom: 20px;
+}
+.all ul {
+  margin-right: -15px;
+}
+.all ul li {
+  width: 298px;
+  margin-right: 15px;
+  float: left;
+  background: #fff;
+  margin-bottom: 15px;
+}
+.all ul li a {
+  position: relative;
+  display: block;
+}
+.all ul li a img {
+  width: 100%;
+  height: 145px;
+}
+.all ul li a .img-layer {
+  width: 100%;
+  height: 145px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0);
+  transition: background .4s;
+}
+.all ul li a .img-layer .img-layer-play {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -25px;
+  margin-left: -25px;
+  background: url('/img/play.png') no-repeat center center;
+  opacity: 0;
+  transform: scale(2);
+  transition: all .4s;
+}
+.all ul li a p {
+  width: 96%;
+  padding: 2%;
+  color: #333;
+  font-size: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  transition: color .4s;
+}
+.all ul li a .list-bottom {
+  padding: 2%;
+  position: relative;
+  color: #787878;
+  height: 16px;
+  box-shadow: 0 4px #ECECEC;
+}
+.all ul li a .list-bottom span {
+  padding-left: 20px;
+  background: url('/img/auther.png') no-repeat left center;
+  float: left;
+}
+.all ul li a .list-bottom .eyes {
+  padding-left: 20px;
+  background: url('/img/eyes.png') no-repeat left center;
+  float: right;
+}
+.all ul li a .list-bottom:after {
+  display: block;
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background: #1cd388;
+  bottom: -2px;
+  left: 0;
+  transition: width .4s;
+}
+.all ul li a:hover p {
+  color: #1cd388;
+}
+.all ul li a:hover :after {
+  width: 100%;
+}
+.all ul li a:hover .img-layer {
+  background: rgba(0, 0, 0, 0.4);
+}
+.all ul li a:hover .img-layer-play {
+  transform: scale(1);
+  opacity: 1;
+}
+.layer {
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+.layer .layer-box {
+  width: 390px;
+  height: 340px;
+  background: #fff;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 3px;
+  overflow: hidden;
+  transition: height .4s;
+}
+.layer .layer-box .dialog-header {
+  height: 60px;
+  background: url(/img/dialog.png) no-repeat left top;
+}
+.layer .layer-box .dialog-header a {
+  display: inline-block;
+  width: 115px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  font-size: 16px;
+  color: #1dd388;
+  overflow: hidden;
+  transition: color .4s;
+}
+.layer .layer-box .dialog-header a:hover {
+  color: #333;
+}
+.layer .layer-box .dialog-header .go-home {
+  background: url(/img/s-logo.png) no-repeat center;
+}
+.layer .layer-box .dialog-header .selected {
+  font-size: 18px;
+  font-weight: 400px;
+  color: #333;
+}
+.layer .layer-box .dialog-header .close-layer {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 15px;
+  width: 30px;
+  height: 30px;
+  background: url(/img/dialog.png) no-repeat 0px -225px;
+}
+.layer .layer-box .dialog-content .dialog-cot .dialog-input-box {
+  margin-left: 37px;
+  margin-top: 15px;
+}
+.layer .layer-box .dialog-content .dialog-cot .dialog-input-box .phone {
+  background-position: -37px -219px;
+}
+.layer .layer-box .dialog-content .dialog-cot .dialog-input-box .keys {
+  background-position: -90px -219px;
+}
+.layer .layer-box .dialog-content .dialog-cot .dialog-input-box .ear {
+  background-position: -135px -219px;
+}
+.layer .layer-box .dialog-content .dialog-cot .dialog-input-box .user {
+  background-position: -180px -219px;
+}
+.layer .layer-box .dialog-content .dialog-cot .dialog-input-box span {
+  float: left;
+  width: 42px;
+  height: 42px;
+  box-sizing: border-box;
+  background-color: #eee;
+  border: solid 1px #e5e5e5;
+  background-image: url(/img/dialog.png);
+  background-repeat: no-repeat;
+}
+.layer .layer-box .dialog-content .dialog-cot .dialog-input-box input {
+  float: left;
+  width: 274px;
+  height: 42px;
+  border: solid 1px #e5e5e5;
+  margin-left: -1px;
+  box-sizing: border-box;
+  padding: 11px;
+}
+.layer .layer-box .dialog-content .dialog-cot p {
+  margin-top: 20px;
+  text-align: right;
+  padding-right: 35px;
+  color: #1cd388;
+  font-size: 12px;
+}
+.layer .layer-box .dialog-content .dialog-cot p a {
+  color: #1cd388;
+}
+.layer .layer-box .dialog-content .dialog-cot p a .gou {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  border: 1px solid #1cd388;
+  border-radius: 50%;
+  background: url(/img/dialog.png) no-repeat -240px -225px;
+  vertical-align: middle;
+  margin-right: 15px;
+}
+.layer .layer-box .dialog-content .dialog-cot button {
+  display: block;
+  width: 320px;
+  margin: 15px auto;
+  height: 46px;
+  background: #1cd388;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  font: normal 24px/46px Microsoft Yahei;
+  transition: all .4s;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+}
+.layer .layer-box .dialog-content .dialog-cot button:hover {
+  background: #1BB388;
+}
+.layer .layer-box .dialog-content .dialog-cot .other-ways {
+  position: relative;
+  z-index: 1;
+  margin-left: 37px;
+}
+.layer .layer-box .dialog-content .dialog-cot .other-ways span {
+  color: #828282;
+  font-size: 12px;
+  margin-right: 20px;
+}
+.layer .layer-box .dialog-content .dialog-cot .other-ways a {
+  display: inline-block;
+  height: 26px;
+  width: 26px;
+  background-image: url(/img/dialog.png);
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  margin: 0 10px;
+}
+.layer .layer-box .dialog-content .dialog-cot .other-ways .qq {
+  background-position: -148px -180px;
+}
+.layer .layer-box .dialog-content .dialog-cot .other-ways .qq:hover {
+  background-position: -119px -180px;
+}
+.layer .layer-box .dialog-content .dialog-cot .other-ways .weix {
+  background-position: -206px -180px;
+}
+.layer .layer-box .dialog-content .dialog-cot .other-ways .weix:hover {
+  background-position: -177px -180px;
+}
+.layer .layer-box .dialog-content .dialog-cot .other-ways .xinla {
+  background-position: -263px -180px;
+}
+.layer .layer-box .dialog-content .dialog-cot .other-ways .xinla:hover {
+  background-position: -234px -180px;
+}
+.layer .layer-box .dialog-footer {
+  height: 70px;
+  background: url(/img/dialog.png) no-repeat left -81px;
+  position: relative;
+  top: -44px;
+}
